@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0 0 10px 0;
+    padding: 0;
+    zoom: 100%;
+    
+}
+
+.ne7 a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.ktiba{
+    color:white;
+}
+
+.block1:hover{
+cursor: pointer;    
+}
+
+
+.block2:hover{
+    cursor: pointer;
+}
+
+.sa8er{
+    width: 100px;
+    height: 50px;
+}
+
+
+.header-nav{
+    display:flex;       
+    background-color: black;
+    justify-content: space-around;
+ }
+
+ .contain{
+     display: flex;
+     justify-content: space-around;
+     margin-top: -6px;
+ }
+
+ .wrapper{
+	min-height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search_box{
+	background: red;
+	position: relative;
+	padding: 2px;
+	border-radius: 50px;
+	display: flex;
+}
+
+.search_box .search_btn{
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	margin-right: 5px;
+	cursor: pointer;
+    margin-top: 10px;
+}
+
+.search_box .input_search{
+	outline: none;
+	border: 0;
+	background: black;
+	border-radius: 50px;
+	padding: 3px 7px;
+	width: 168px; 
+	height: 30px;
+	color: #fff;
+    margin-top: 10px;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+.brabi{
+    width: 100%;
+   
+}
+.menu{
+    margin-top: -22px;
+    background: black;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+}
+.main-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+.main-menu li{
+    padding: 5px;
+    color: white;
+}
+
+.dropdown-content{
+    cursor: pointer;
+    position: relative;
+    display: flex;
+}
+
+.dropdown1{
+    display: none;
+    padding-top: 10px;
+    margin-top: 16px;
+    position: absolute;
+    min-width: 170px;
+    background: black;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    z-index: 1;
+}
+.dropdown-content:hover .dropdown1{
+    display: flex;
+}
+
+.dropdown1 ul li{
+    list-style: none;
+
+}
+.dropdown1 a:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.felwaset{
+    display: flex;
+    justify-content: space-around;
+}
+
+.kaber{
+    display: flex;
+    justify-content: center;    
+}
+.kaber > p{
+    font-size: 36px;
+    font-family: fantasy;
+    
+    text-shadow: 10px 10px 12px gray;
+}
+
+.nadhem{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mnadham{
+    width: 200px;
+    height: 170px;
+}
+.mnadham:hover{
+    width: 230px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.kamalna{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+
+}
+.kamalna>p{
+    font-size: 30px;
+    color: white;
+    line-height: 60%;
+}
+
+.saye{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.saye1{
+    display: flex;
+    justify-content: space-around;
+}
+.saye1 li{
+    list-style: none;
+    padding: 10px;
+    margin: 4px;
+}
+.saye1 li:hover{
+    cursor: pointer;
+}
+.kamalet{
+    text-align: center;
+}
+.kamalet a{
+    text-decoration: none;
+    color: red;
+}
